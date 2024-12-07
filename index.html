@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body class="overflow-hidden bg-[#DCF7FF] max-w-[1600px]">
+    <div id="invertedcursor"></div>
+
+    <div
+      class="relative w-screen h-screen flex items-center justify-center bg-center bg-cover ]"
+      style="background-image: url('/dubai-skyline.jpg')"
+    >
+      <!-- Overlay -->
+      <!-- <div class="absolute inset-0 bg-[rgba(200,225,255,0.3)] z-10"></div> -->
+
+      <!-- Contact Link - Modified to test blend mode -->
+      <div
+        class="fixed top-8 left-8 text-xl font-semibold z-20 mix-blend-luminosity"
+        style="color: #272727"
+      >
+        CONTACT
+      </div>
+
+      <!-- Role -->
+      <div
+        class="absolute top-8 left-1/2 -translate-x-1/2 text-xl font-semibold text-primary z-20 mix-blend-luminosity"
+        style="color: #272727"
+      >
+        FRONT END DEVELOPER
+      </div>
+
+      <!-- Page Number (if needed) -->
+      <div
+        class="fixed top-8 right-8 text-xl font-semibold text-primary z-20 mix-blend-luminosity"
+        style="color: #272727"
+      >
+        01
+      </div>
+
+      <!-- Title (if needed) -->
+      <!--  
+      1. mix-blend-color-burn
+      2.  mix-blend-luminosity
+      mix-blend-color-dodge 
+         -->
+
+      <div
+        class="fixed bottom-0 left-0 flex w-screen h-screen items-start justify-between mix-blend-color-burn pb-2 max-w-[1600px"
+        id="animated-text"
+      >
+        <div
+          id="letter-d"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="D.png" alt="letter-d" />
+        </div>
+        <div
+          id="letter-u"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="U.png" alt="letter-u" />
+        </div>
+        <div
+          id="letter-b"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="B.png" alt="letter-b" />
+        </div>
+
+        <div
+          id="letter-a"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="A.png" alt="letter-a" />
+        </div>
+        <div
+          id="letter-i"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="I.png" alt="letter-i" />
+        </div>
+        <div
+          id="letter-s"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="S.png" alt="letter-s" />
+        </div>
+        <div
+          id="letter-k"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="K.png" alt="letter-k" />
+        </div>
+        <div
+          id="letter-y"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="Y.png" alt="letter-y" />
+        </div>
+        <div
+          id="letter-l"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="L.png" alt="letter-l" />
+        </div>
+        <div
+          id="letter-i2"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="I.png" alt="letter-i" />
+        </div>
+        <div
+          id="letter-n"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="N.png" alt="letter-n" />
+        </div>
+        <div
+          id="letter-e"
+          class="letter h-full flex justify-center items-end grow"
+        >
+          <img class="h-[300px] w-[100px]" src="E.png" alt="letter-e" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
