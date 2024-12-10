@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         morganite: ["Morganite", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        bdo: ["BDO Grotesk", "sans-serif"],
       },
     },
   },

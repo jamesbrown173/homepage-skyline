@@ -96,10 +96,19 @@ overlay.innerHTML = `
 `;
 document.body.appendChild(overlay);
 
-// Function to handle overlay visibility
 function handleOverlay() {
-  if (window.innerWidth < 900) {
+  const overlay = document.querySelector(".mobile-overlay");
+  if (window.innerWidth < 900 || window.innerWidth > 1600) {
     overlay.style.display = "flex";
+
+    // Update message based on screen size
+    const message = overlay.querySelector("p");
+    if (window.innerWidth < 900) {
+      message.textContent = "This experience is optimized for larger screens";
+    } else {
+      message.textContent =
+        "This experience is optimized for standard desktop screens";
+    }
   } else {
     overlay.style.display = "none";
   }
