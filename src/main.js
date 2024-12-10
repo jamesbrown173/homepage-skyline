@@ -62,7 +62,7 @@ document.addEventListener("mousemove", (event) => {
     // Use a smoother easing function and shorter duration
     gsap.to(img, {
       height: minHeight + (newHeight - minHeight) * intensity,
-      duration: 0.3,
+      duration: 0.6,
       ease: "power2.out",
     });
   });
